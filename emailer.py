@@ -12,11 +12,15 @@ import voice_input as vi
 import speak as sp
 
 address={
+    '''
     'unqiue name for individual':'email ID',
-    'harsh united' : 'harshdhussa@gmail.com',#example remove when sending final project
+    'nickname' : 'xyz@gmail.com',#example addressing
+    '''
     }
 password={
-    'emailID' : 'password'#your password here
+    '''
+    'xyz@gmail.com' : 'password'#your password here for given address
+    '''
     }
 sp.speak("hi this is hola version 1.0")
 time.sleep(2)
